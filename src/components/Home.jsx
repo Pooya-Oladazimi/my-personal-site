@@ -12,7 +12,7 @@ class Home extends React.Component{
 
     render(){
         return(
-            <Grid container>
+            <Grid container id="global-container">
                 <Grid item xs={3} id="left-panel">
                    
                 </Grid>
