@@ -1,9 +1,26 @@
 #left-panel{
     border-right: 1px solid;
-    background-color: aqua;
-    height: 100%;
+    background-color: #102a50;
+    height: 100vh;
 }
 
 #right-content{
-    background-color: azure;
+    background-color: #f7f3f6;
+    height: 100vh;
+}
+
+#header{
+    background-color: #08a8ff;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.header-name{
+    font-size: 70px;
+    margin-right: 20px;
+}
+
+#first-name-text-header{
+    color: white;
 }

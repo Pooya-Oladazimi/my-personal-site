@@ -1,6 +1,7 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import '../styles/home.css';
+import {header} from './Header'
 
 
 class Home extends React.Component{
@@ -13,10 +14,10 @@ class Home extends React.Component{
         return(
             <Grid container>
                 <Grid item xs={3} id="left-panel">
-                    hhhhhhhh
+                   
                 </Grid>
-                <Grid item xs={3} id="right-content">
-
+                <Grid item xs={9} id="right-content">
+                    {header()}
                 </Grid>
             </Grid>
         );
