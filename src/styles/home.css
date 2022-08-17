@@ -1,0 +1,9 @@
+#left-panel{
+    border-right: 1px solid;
+    background-color: aqua;
+    height: 100%;
+}
+
+#right-content{
+    background-color: azure;
+}
