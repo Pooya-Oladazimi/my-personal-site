@@ -27,3 +27,12 @@
 #first-name-text-header{
     color: white;
 }
+
+#my-image{
+    max-width: 100% !important;    
+    height: 80%;
+    border-radius: 5px;
+}
+#image-section{
+    text-align: center;
+}

@@ -11,7 +11,7 @@ export function header(){
                 <span id="last-name-text-header" className='header-name'> 
                     Oladazimi
                 </span>
-            </Grid>            
+            </Grid>        
         </Grid>
     ];
 }
