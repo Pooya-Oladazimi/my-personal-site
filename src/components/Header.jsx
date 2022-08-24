@@ -3,7 +3,7 @@ import Grid from '@material-ui/core/Grid';
 
 export function header(){
     return [
-        <Grid container>
+        <Grid container key={"header"}>
             <Grid item xs={12} id="header">
                 <span id="first-name-text-header" className='header-name'> 
                     Pooya
