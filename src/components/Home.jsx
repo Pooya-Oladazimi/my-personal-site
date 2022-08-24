@@ -32,7 +32,7 @@ class Home extends React.Component{
                    {panel(this.handleMenuClick)}
                 </Grid>
                 <Grid item xs={9} id="right-content" key={"right-content"}>
-                    {header()}
+                    
                 </Grid>
             </Grid>
         );

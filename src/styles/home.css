@@ -20,12 +20,14 @@
 }
 
 .header-name{
-    font-size: 70px;
-    margin-right: 20px;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
 }
 
 #first-name-text-header{
-    color: white;
+    margin-right: 20px;
+    font-size: 35px;
 }
 
 #my-image{

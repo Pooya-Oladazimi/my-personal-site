@@ -7,7 +7,15 @@ export function panel(menuHandler){
     return [
         <Grid container>
             <Grid item xs={12} id="image-section">
-                <img src={Pic} className="img-rounded" alt="my Pic"  id="my-image" /> 
+                <img src={Pic} className="img-rounded" alt="my Pic"  id="my-image" />
+                <div className='header-name'>
+                    <span id="first-name-text-header" > 
+                        Pooya
+                    </span>
+                    <span id="last-name-text-header"> 
+                        Oladazimi
+                    </span> 
+                </div>                
             </Grid>
             <Grid item xs={12} id="menu-section">
                 <ul className='menu'>
