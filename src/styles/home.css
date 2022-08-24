@@ -39,5 +39,26 @@
 
 #menu-section{
     color: white;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.menu{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.menu-item{
+    margin-bottom: 25px;
+}
+
+.menu-anchor{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-anchor:hover{
     font-weight: bold;
 }
