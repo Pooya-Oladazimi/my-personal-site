@@ -16,6 +16,7 @@
     font-size: 18px;
     text-align: justify;
     margin-top: 25%;
+    line-height: 0.3in;
 }
 
 .content-anchor{
@@ -34,6 +35,7 @@
     padding-top: 5px;
     font-size: 16px;
     margin-top: 30px;
+    line-height: normal;
 }
 
 .exp-header{
@@ -48,6 +50,34 @@
 .exp-header > a:hover{
     text-decoration: underline;
     color:  #285ba7;
+}
+
+.logo-icon{
+    font-size: 150px;
+}
+
+.logo-link{
+    color: black;
+    text-decoration: none;
+}
+.logo-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.logo-container{
+    text-align: center;
+    /* display: inline-block; */
+}
+
+.find-row{
+    margin-bottom: 100px;
+}
+
+.findme-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
 }
 
 #left-panel{

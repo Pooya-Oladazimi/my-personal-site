@@ -15,7 +15,7 @@ class About extends React.Component{
 
                 <p>
                     In my free time, I like to watch movies/series, and also write some blog posts about programming,
-                    cinema, and etc. 
+                    cinema, etc. 
                 </p>
             </div>
         );
