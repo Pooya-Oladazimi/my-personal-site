@@ -7,11 +7,11 @@ class About extends React.Component{
     
     render(){
         return(
-            <div class="about-content">
+            <div class="content-box">
                 <p>
                     Welcome to my page. My name is <b>Pooya Oladazimi</b>. I am a software developer who is also interested in 
                     data analysis and machine learning. Software development is magic. So I like to consider myself as
-                        <i><a href="https://en.wikipedia.org/wiki/Gandalf" className='content-anchor' target="_blank">Gandalf</a></i>. 
+                    <i><a href="https://en.wikipedia.org/wiki/Gandalf" className='content-anchor' target="_blank">Gandalf</a></i>. 
                 </p>
 
                 <p>

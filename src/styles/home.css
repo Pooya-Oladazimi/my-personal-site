@@ -2,7 +2,12 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
-.about-content{
+#right-content{
+    background-color: #f7f3f6;
+    /* height: 100vh; */
+}
+
+.content-box{
     background-color: white;
     width: 50%;
     margin: auto;
@@ -15,7 +20,8 @@
 
 .content-anchor{
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
     color: #2154a1;
     font-weight: 500;
 }
@@ -24,15 +30,27 @@
     text-decoration: underline;
 }
 
+.exp-box{
+    padding-top: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.exp-header{
+    margin-right: 10px;
+    color:  #285ba7;;
+}
+
+.exp-header > a{
+    text-decoration: none;
+    color:  #285ba7;
+}
+
 #left-panel{
     background-color: #102a50;
     height: 100vh;
 }
 
-#right-content{
-    background-color: #f7f3f6;
-    height: 100vh;
-}
 
 #header{
     background-color: #08a8ff;
