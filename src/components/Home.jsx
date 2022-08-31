@@ -41,6 +41,14 @@ class Home extends React.Component{
                 findmeFlag: false
             });
         }
+        else if(target === "edu"){
+            this.setState({
+                aboutFlag: false,
+                expFlag: false,
+                eduFlag: true,
+                findmeFlag: false
+            });
+        }
     }
 
 
@@ -53,6 +61,7 @@ class Home extends React.Component{
                 <Grid item lg={9} sm={12} id="right-content" key={"right-content"}>
                     {this.state.aboutFlag && <About></About>}
                     {this.state.expFlag && <Experience></Experience>}
+                    {this.state.eduFlag && <Education></Education>}
                 </Grid>
             </Grid>
         );

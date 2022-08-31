@@ -45,6 +45,10 @@
     text-decoration: none;
     color:  #285ba7;
 }
+.exp-header > a:hover{
+    text-decoration: underline;
+    color:  #285ba7;
+}
 
 #left-panel{
     background-color: #102a50;
