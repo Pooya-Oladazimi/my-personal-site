@@ -13,6 +13,12 @@ import Findme from './Findme';
 class Home extends React.Component{
     constructor(props){
         super(props);
+        this.state = ({
+            aboutFlag: true,
+            expFlag: false,
+            eduFlag: false,
+            findmeFlag: false
+        });
         this.handleMenuClick = this.handleMenuClick.bind(this);
     }
 
@@ -20,7 +26,12 @@ class Home extends React.Component{
     handleMenuClick(e){
         let target = e.target.getAttribute("value");        
         if(target === "about"){
-            // this.props.history.push(window.location.pathname + "/about");
+            this.setState({
+                aboutFlag: true,
+                expFlag: false,
+                eduFlag: false,
+                findmeFlag: false
+            });
         }
     }
 
@@ -28,11 +39,11 @@ class Home extends React.Component{
     render(){
         return(
             <Grid container id="global-container">
-                <Grid item xs={3} id="left-panel" key={"left-panel"}>
+                <Grid item lg={3} sm={12} id="left-panel" key={"left-panel"}>
                    {panel(this.handleMenuClick)}
                 </Grid>
-                <Grid item xs={9} id="right-content" key={"right-content"}>
-                    
+                <Grid item lg={9} sm={12} id="right-content" key={"right-content"}>
+                    {this.state.aboutFlag && <About></About>}
                 </Grid>
             </Grid>
         );
