@@ -1,7 +1,5 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import '../styles/home.css';
-import {header} from './Header';
 import {panel} from './Panel';
 import { withRouter } from 'react-router-dom';
 import About from './About';
@@ -70,17 +68,24 @@ class Home extends React.Component{
 
     render(){
         return(
-            <Grid container id="global-container">
-                <Grid item lg={3} sm={12} id="left-panel" key={"left-panel"}>
-                   {panel(this.handleMenuClick)}
-                </Grid>
-                <Grid item lg={9} sm={12} id="right-content" key={"right-content"}>
-                    {this.state.aboutFlag && <About></About>}
-                    {this.state.expFlag && <Experience></Experience>}
-                    {this.state.eduFlag && <Education></Education>}
-                    {this.state.findmeFlag && <Findme></Findme>}
-                </Grid>
-            </Grid>
+            <div className='container-fluid'>
+                <div className='row upper-part'>
+                    <div className='col-sm-3' id="left-panel" key={"left-panel"}>
+                    {panel(this.handleMenuClick)}
+                    </div>
+                    <div item className='col-sm-9' id="right-content" key={"right-content"}>
+                        {this.state.aboutFlag && <About></About>}
+                        {this.state.expFlag && <Experience></Experience>}
+                        {this.state.eduFlag && <Education></Education>}
+                        {this.state.findmeFlag && <Findme></Findme>}
+                    </div>
+                </div>
+                <div className='row' id="footer">
+                    <div className='col-sm-12' key={"footer"}>
+                        <p>Designed by <i>Pooya Oladazmi</i></p>
+                    </div>                    
+                </div>                
+            </div>
         );
     }
 }
