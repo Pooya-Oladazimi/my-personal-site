@@ -159,7 +159,24 @@ body{
     min-height: 50px;
 }
 
-@media only screen and (max-width: 1025px) {
+
+
+@media only screen and (max-width: 1281px) and (min-width: 1026px) {
+    .header-name{
+        font-size: 35px;        
+        margin-top: 20px;    
+    }
+    #first-name-text-header{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    #image-section{
+        margin-bottom: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 901px) {
     .container-fluid{
         min-height: 70vh;
     }
@@ -168,5 +185,53 @@ body{
     }
     #footer{
         min-height: 30vh;
+    }
+    .header-name{
+        font-size: 30px;        
+        margin-top: 20px;    
+    }
+    #first-name-text-header{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    #image-section{
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 501px){
+    .container-fluid{
+        min-height: 70vh;
+    }
+    .upper-part{   
+        min-height: 70vh;
+    }
+    #footer{
+        min-height: 30vh;
+    }
+    .header-name{
+        font-size: 25px;        
+        margin-top: 20px;    
+    }
+    #first-name-text-header{
+        margin-right: 20px;
+        font-size: 15px;
+    }
+    #image-section{
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .header-name{
+        font-size: 35px;        
+        margin-top: 20px;    
+    }
+    #first-name-text-header{
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    #image-section{
+        margin-bottom: 30px;
     }
 }
