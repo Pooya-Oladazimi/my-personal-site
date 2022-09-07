@@ -173,6 +173,16 @@ body{
     #image-section{
         margin-bottom: 100px;
     }
+    .content-box{       
+        width: 95%;
+        margin: auto;
+        padding: 30px;        
+        font-size: 17px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 0.3in;
+    }
 }
 
 
@@ -197,6 +207,16 @@ body{
     #image-section{
         margin-bottom: 100px;
     }
+    .content-box{       
+        width: 95%;
+        margin: auto;
+        padding: 30px;        
+        font-size: 17px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 0.3in;
+    }
 }
 
 @media only screen and (max-width: 900px) and (min-width: 501px){
@@ -220,6 +240,16 @@ body{
     #image-section{
         margin-bottom: 100px;
     }
+    .content-box{       
+        width: 95%;
+        margin: auto;
+        padding: 30px;        
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        line-height: 0.3in;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -233,5 +263,15 @@ body{
     }
     #image-section{
         margin-bottom: 30px;
+    }
+    .content-box{       
+        width: 100%;
+        margin: auto;
+        padding: 30px;        
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 0.3in;
     }
 }

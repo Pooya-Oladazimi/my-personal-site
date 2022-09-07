@@ -82,7 +82,7 @@ class Home extends React.Component{
                 </div>
                 <div className='row' id="footer">
                     <div className='col-sm-12' key={"footer"}>
-                        <p>Designed by <i>Pooya Oladazmi</i></p>
+                        <p>Designed & Developed by <i>Pooya Oladazmi</i></p>
                     </div>                    
                 </div>                
             </div>
