@@ -110,6 +110,10 @@ class Home extends React.Component{
         }
     }
 
+    componentDidMount(){
+        this.processUrl();
+    }
+
 
     render(){
         return(
