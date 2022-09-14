@@ -18,6 +18,51 @@ class Home extends React.Component{
             findmeFlag: false
         });
         this.handleMenuClick = this.handleMenuClick.bind(this);
+        this.processUrl = this.processUrl.bind(this);
+    }
+
+    processUrl(){
+        let target = this.props.match.params.tab;
+        if(target === "about"){
+            this.setState({
+                aboutFlag: true,
+                expFlag: false,
+                eduFlag: false,
+                findmeFlag: false
+            });
+        }
+        else if(target === "exp"){
+            this.setState({
+                aboutFlag: false,
+                expFlag: true,
+                eduFlag: false,
+                findmeFlag: false
+            });
+        }
+        else if(target === "edu"){
+            this.setState({
+                aboutFlag: false,
+                expFlag: false,
+                eduFlag: true,
+                findmeFlag: false
+            });
+        }
+        else if(target === "find"){
+            this.setState({
+                aboutFlag: false,
+                expFlag: false,
+                eduFlag: false,
+                findmeFlag: true
+            });
+        }
+        else{
+            this.setState({
+                aboutFlag: true,
+                expFlag: false,
+                eduFlag: false,
+                findmeFlag: false
+            });
+        }
     }
 
 
