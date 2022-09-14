@@ -74,17 +74,21 @@ class Home extends React.Component{
                     {panel(this.handleMenuClick)}
                     </div>
                     <div item className='col-sm-9' id="right-content" key={"right-content"}>
-                        {this.state.aboutFlag && <About></About>}
-                        {this.state.expFlag && <Experience></Experience>}
-                        {this.state.eduFlag && <Education></Education>}
-                        {this.state.findmeFlag && <Findme></Findme>}
+                        <div className='row' id="content-holder">
+                            <div className='col-sm-12'>
+                            {this.state.aboutFlag && <About></About>}
+                            {this.state.expFlag && <Experience></Experience>}
+                            {this.state.eduFlag && <Education></Education>}
+                            {this.state.findmeFlag && <Findme></Findme>}
+                            </div>
+                        </div>                        
+                        <div className='row' id="footer">
+                            <div className='col-sm-12' key={"footer"}>
+                                <p>Designed & Developed by <i>Pooya Oladazmi</i></p>
+                            </div>                    
+                        </div> 
                     </div>
-                </div>
-                <div className='row' id="footer">
-                    <div className='col-sm-12' key={"footer"}>
-                        <p>Designed & Developed by <i>Pooya Oladazmi</i></p>
-                    </div>                    
-                </div>                
+                </div>                               
             </div>
         );
     }

@@ -12,12 +12,15 @@ body{
 
 #right-content{
     background-color: #f7f3f6;
-    /* min-height: 100vh; */
+    min-height: 100vh;
 }
 
 #left-panel{
     background-color: #102a50;
-    /* min-height: calc(100vh - 50px); */
+    
+}
+#content-holder{
+    min-height: 95vh;
 }
 
 .content-box{
